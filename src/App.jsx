@@ -9,8 +9,8 @@ import Logout from "./pages/Logout";
 import Register from './pages/Register';
 import Jobs from './pages/Jobs';
 import JobDetails from './pages/JobDetails';
-import './Index.css';
-// import Preloader from "./components/Preloader";
+import './index.css';
+import Preloader from "./components/Preloader";
 
 
 function ScrollRestoration() {
@@ -43,7 +43,7 @@ function ScrollRestoration() {
 }
 
 function App() {
-  // const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(true);
 
   const [showDropdown, setShowDropdown] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -55,12 +55,11 @@ function App() {
 
 
   return (
-    //  <>
-    // {/* Preloader covers whole screen until it calls onFinish */}
-    // {loading && <Preloader onFinish={() => setLoading(false)} />}
+     <>
+   
+    {loading && <Preloader onFinish={() => setLoading(false)} />}
 
-    // {/* Render the actual app only after loading completes */}
-    // {!loading && (
+    {!loading && (
     <Router>
       <ScrollRestoration />
 
@@ -137,8 +136,8 @@ function App() {
         </Routes>
       </div>
     </Router>
-  // )}
-  // </>
+  )}
+  </>
   );
   }
 

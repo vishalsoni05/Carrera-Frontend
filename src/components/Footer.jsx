@@ -70,7 +70,7 @@ const Footer = () => {
 
             {/* Bottom */}
             <div className="footer-bottom">
-                <p>© {year} CareerLaunch. All rights reserved. | This Webapp is made with ❤ by Vishal Soni</p>
+                <p>© {year} CareerLaunch. All rights reserved.</p>
             </div>
         </footer>
     );

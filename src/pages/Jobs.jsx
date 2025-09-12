@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import '../Index.css'; 
+import './index.css'; 
 import { Link, useLocation } from 'react-router-dom';
 
 const JobList = () => {
