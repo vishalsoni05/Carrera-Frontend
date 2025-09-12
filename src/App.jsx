@@ -67,7 +67,7 @@ function App() {
       <nav className="navbar">
         <div className="navbar-left">
           <img
-            src="/src/Images/carrera-high-resolution-logo.png"
+            src="/carrera-high-resolution-logo.png"
             alt="Logo"
             className="navbar-logo"
           />
