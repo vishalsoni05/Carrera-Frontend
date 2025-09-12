@@ -181,7 +181,8 @@ const JobList = () => {
       </div>
 
       {message && <div style={{ marginBottom: 12, color: '#0656d8' }}>{message}</div>}
-
+      
+{Array.isArray(jobs) && jobs.length > 0 ? (
       <div className="jobs-grid">
         {jobs.map(job => (
           <div key={job.id} className="job-card">
@@ -207,7 +208,9 @@ const JobList = () => {
           </div>
         ))}
       </div>
-
+      ) : (
+  <p>No jobs found</p>
+)}
       {/* Create Modal */}
       {showCreateModal && (
         <div className="modal-overlay" onMouseDown={() => setShowCreateModal(false)}>
