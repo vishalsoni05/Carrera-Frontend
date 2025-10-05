@@ -3709,6 +3709,7 @@ AI Dream Job Generator gemini section
   min-width: 250px;
   max-width: 300px;
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.05);
+  color: #000;
 }
 
 .detail-box h3 {
@@ -3789,7 +3790,11 @@ AI Dream Job Generator gemini section
     font-size: 1rem;
     padding: 10px;
   }
-
+  .contact-details {
+    background-color: #fff;
+    padding: 40px 10px;
+    gap: 12px;
+  }
   .detail-box {
     color: black;
     font-weight: bold;
