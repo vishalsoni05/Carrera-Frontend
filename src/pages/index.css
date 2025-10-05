@@ -4,8 +4,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
+input{
+  background-color: white;
+  color: #000;
+}
 
 html,
 body {
@@ -3287,6 +3292,7 @@ AI Dream Job Generator gemini section
 .about-journey {
   padding: 60px 20px;
   text-align: center;
+  background-color: white;
 }
 
 .about-journey h2 {
@@ -3426,6 +3432,7 @@ AI Dream Job Generator gemini section
 .about-surprise {
   padding: 70px 20px;
   text-align: center;
+  background-color: white;
 }
 
 .about-surprise h2 {
@@ -3645,6 +3652,7 @@ AI Dream Job Generator gemini section
   padding: 60px 20px;
   display: flex;
   justify-content: center;
+  background-color: white;
 }
 
 .contact-form {
@@ -3699,6 +3707,7 @@ AI Dream Job Generator gemini section
   gap: 20px;
   justify-content: center;
   text-align: center;
+  background-color: white;
 }
 
 .detail-box {
